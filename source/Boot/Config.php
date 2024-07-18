@@ -9,7 +9,7 @@ if (ENVIRONMENT == 'prod') {
 /**
  * PROJECT URLs
  */
-	define("CONF_URL_BASE", "https://www.agapps.com.br");
+	define("CONF_URL_BASE", "https://agapps.com.br");
 	define("CONF_DB_HOST", "localhost");
 	define("CONF_DB_USER", "root");
 	define("CONF_DB_PASS", "!Adilio{}270");
