@@ -20,12 +20,9 @@
     </form>
 
     <footer>
-      <p>Desenvolvido por www.<b>fsphp</b>.com.br</p>
+      <p>Desenvolvido por www.<b>agapps</b>.com.br</p>
       <p>&copy; <?= date("Y"); ?> - todos os direitos reservados</p>
-      <a target="_blank"
-         class="icon-whatsapp transition"
-         href="https://api.whatsapp.com/send?phone=554833715879&text=Olá, preciso de ajuda com o login."
-      >WhatsApp: (48) 3371 5879</a>
+      
     </footer>
   </article>
 </div>
