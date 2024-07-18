@@ -141,7 +141,7 @@
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/multi-responsive-bootstrap-template/ -->
-            Designed by <a href="https://bootstrapmade.com/"><?=CONF_SITE_TITLE?></a>
+           Desenvolvido por <a href="https://agapps.com.br"><?=CONF_SITE_TITLE?></a>
         </div>
     </div>
 </footer><!-- End Footer -->
