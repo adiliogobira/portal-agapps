@@ -1,6 +1,8 @@
 <?php
 //controla manualmente o cache da aplicação
 //tem somente um output para otimizar recursos
+//
+phpinfo();die;
 ob_start();
 
 require __DIR__ . '/vendor/autoload.php';
