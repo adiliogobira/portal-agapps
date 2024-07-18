@@ -122,3 +122,5 @@
 
 </body>
 </html>
+sudo chown ubuntu:www-data -R /var/www/html
+sudo chgrp -R www-data /var/www/html

@@ -18,12 +18,12 @@
                     <?= csrf_input(); ?>
                     <div class="row">
                         <div class="form-group">
-                            <input class="form-control" type="email" name="email" value="<?= ($cookie ?? 'adiliogobira@gmail.com'); ?>"
+                            <input class="form-control" type="email" name="email" value="<?= ($cookie); ?>"
                                    placeholder="Informe seu e-mail:" required/>
                         </div>
                     </div>
                     <div class="form-group mt-3">
-                        <input type="password" class="form-control" name="password" placeholder="Informe sua senha:" value="!Adilio{}270" required/>
+                        <input type="password" class="form-control" name="password" placeholder="Informe sua senha:" required/>
                     </div>
                     <div class="form-group mt-3">
                         <span><a title="Esqueceu a senha?" href="<?= url("/recuperar"); ?>">Esqueceu a senha?</a></span>
