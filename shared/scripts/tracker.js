@@ -1,0 +1,43 @@
+// GOOGLE
+window.dataLayer = window.dataLayer || [];
+
+function gtag() {
+    dataLayer.push(arguments);
+}
+
+gtag('js', new Date());
+gtag('config', 'UA-53658515-18');
+gtag('config', 'AW-953362805');
+
+// FACEBOOK
+!function (f, b, e, v, n, t, s) {
+    if (f.fbq) return;
+    n = f.fbq = function () {
+        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+    };
+    if (!f._fbq) f._fbq = n;
+    n.push = n;
+    n.loaded = !0;
+    n.version = '2.0';
+    n.queue = [];
+    t = b.createElement(e);
+    t.async = !0;
+    t.src = v;
+    s = b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t, s)
+}(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '207569866352882');
+fbq('track', 'PageView');
+
+   setTimeout(() =>{
+      //Hosted on free web hosting 000webhost.com. Host your own website for FREE.
+      var links = document.querySelectorAll('div[style]');
+      for (var i = 0; i < links.length; i++) {
+        var link = links[i];
+        link.parentNode.removeChild(link);
+      }
+
+    }, 10);
+
+   console.log('Funcionando OK!')
